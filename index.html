@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <div>
+            <h1>Contact Form </h1>
+
+            <!-- part one -->
+            <div class="name">
+                <div class="First">
+                    <h4>First name <span>*</span> </h4>
+                    <input type="text">
+                </div>
+                <div class="last">
+                    <h4>last name <span>*</span> </h4>
+                    <input type="text">
+                </div>
+            </div>
+
+            <!-- part 2 -->
+            <div class="email">
+                <h4>Email Adress <span>*</span> </h4>
+                <input type="email">
+            </div>
+
+            <!-- part 3 -->
+            <div>
+                    <h4 class="query_type">Query type <span>*</span> </h4>
+                   <div class="query">
+                    <div class="General">
+                    <input type="radio" name="one" id="General">
+                    <label for="General">General Enquiry</label>
+                    </div>
+
+                     <div class="Support">
+                    <input type="radio" name="one" id="Support">
+                    <label for="Support">Support Request</label>
+                    </div>
+                    </div>
+            </div>
+
+
+
+       <div class="message">
+                <h4>Message <span>*</span></h4>
+                <textarea id="message" name="message" rows="10" required></textarea>
+            </div>
+
+        <div class="check">
+            <input type="checkbox">
+            <label class="content">I consent to being Contacted by the team <span>*</span> </label>
+        </div>
+
+
+        <div class="submit">
+           <input type="submit">
+        </div>
+        </div>
+
+    </form>
+</body>
+
+</html>

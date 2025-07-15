@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    background-color: rgb(221, 245, 240);
+}
+form{
+    background-color: white;
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    box-shadow: 5px 5px 10px rgba(167, 165, 165, 0.489);
+}
+h1{
+    margin: 1rem;
+    padding-top: 3rem;
+    margin-left: 35px;
+}
+.name{
+    width: 500px;
+    display: flex;
+  margin: 1rem; 
+  margin-top: 1rem;  
+}
+
+.First{
+    width: 500px;
+   color: rgb(63, 63, 63);
+   margin-top: 1rem;
+}
+.First input{
+    width: 380px;
+    padding: 15px;
+      margin-left: 15px;
+      border-radius: 5px;
+      border-width: 0.5px;
+}
+.last{
+    width: 500px;
+     color: rgb(63, 63, 63);
+     margin-left: 8px;
+     margin-top: 1rem;
+}
+
+.last input{
+    width: 372px;
+    padding: 15px;
+     margin-left: 15px;
+      border-radius: 5px;
+      border-width: 0.5px;
+}
+.email{
+     color: rgb(63, 63, 63);
+     margin-left: 20px; 
+     margin-top: 2rem;
+}
+.email input{
+       padding: 15px;
+   width: 87%; 
+     margin-left: 15px;
+      border-radius: 5px;
+      border-width: 0.5px;
+}
+.query{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+}
+h4{
+    color: rgb(63, 63, 63);
+     margin-left: 15px;
+     margin: 1rem;
+}
+.query_type{
+    margin-left: 32px;
+    margin-top: 2rem;
+}
+
+.General{
+    width: 370px;
+    margin-left: 35px;
+   border-width: 0.5px;
+   border-style: solid;
+   border-color: rgb(69, 68, 68);
+    border-radius: 5px;
+   
+}
+.General input{
+    margin: 1rem;
+    cursor: pointer;
+   
+}
+.General label{
+    padding-right: 100px;
+}
+.Support{
+    width: 370px;
+    margin-left: 25px;
+   border-width: 0.5px;
+    border-radius: 5px;
+   border-style: solid;
+   border-color: rgb(69, 68, 68);
+}
+.Support input{
+    margin: 1rem;
+   cursor: pointer;
+}
+.Support label{
+    padding-right: 100px;
+}
+.message{
+    margin-top: 2rem;
+    margin-left: 30px;
+}
+.message h4{
+    margin-left: -3px;
+}
+.message textarea{
+    width: 88%;
+     border-radius: 5px;
+    border-width: 0.5px;
+    padding: 1rem;
+}
+span{
+    color: rgb(18, 210, 18);
+}
+.check{
+    margin-top: 2rem;
+    margin: 30px;
+}
+.content{
+    margin-left: 1rem;
+    
+}
+.submit{
+    padding: 20px;
+    margin-top: 2rem;
+    margin-left: 5px;
+}
+.submit input{
+    width: 95%;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding: 20px;
+    background-color: rgb(58, 123, 119);
+    border-style: none;
+    color: white;
+     border-radius: 5px;
+     font-size: large;
+     cursor: pointer;
+}
+@media (max-width:576px){
+    form{
+        width: 450px;
+       margin: 0;
+       padding: 0;
+    }
+    .name{
+        width: 205px;
+        flex-wrap: wrap;
+    }
+    .First{
+        margin-left: 10px;
+    }
+    .First input{
+        width: 350px;
+    }
+    .last input{
+        width: 350px;
+    }
+    .email input{
+        width: 83%;
+    }
+    .query{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    }
+    .Support {
+        width: 350px;
+       margin-left: 35px;
+    }
+    .General{
+        width: 350px;
+    }
+    .message{
+        width: 405px;
+    }
+    .submit input{
+       font-size: 12px;
+    }
+
+}
+
